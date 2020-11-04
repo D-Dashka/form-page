@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: Nunito-Regular, sans-serif;
+}
+
+@font-face {
+    font-family: Nunito-Regular;
+    src: url("../fonts/nunito-regular.ttf");
+}
+
+@font-face {
+    font-family: Nunito-Bold;
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
+@font-face {
+    font-family: Nunito-Black;
+    src: url("../fonts/Nunito-Black.ttf");
+}
+
+.layout {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.layout-title {
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    font-family: Nunito-Black, sans-serif;
+    margin-top: 25px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 134px);
+}
+
+.layout-title span {
+    color: #D72F3F;
+    font-size: 45px;
+    text-align: center;
+}
+
+.layout-left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.layout-left__container {
+    padding: 195px 0;
+    /*align-items: center;
+    max-width: 500px;*/
+}
+
+.layout-left__text {
+    width: 460px;
+}
+
+.layout-left__text .layout-left__title {
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    font-family: Nunito-Bold, sans-serif;
+}
+
+.layout-left__text .layout-left__description {
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin-top: 7px;
+    margin-bottom: 62px;
+}
+
+.layout-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    align-items: center;
+}
+.layout-form__label {
+    margin-bottom: 20px;
+    font-family: Nunito-Regular, sans-serif;
+    width: 452px;
+}
+
+.layout-form__input-text {
+    font-size: 16px;
+    color: #C6C6C4;
+}
+
+.layout-form__input {
+    width: 452px;
+    border: 0;
+    border-bottom: 1px solid #C6C6C4;
+    outline: none;
+    padding: 5px 0;
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 20px;
+}
+
+.layout-form__checkbox-label {
+    margin-bottom: 40px;
+}
+
+.layout-form__checkbox-text {
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 16px;
+    color: #636363;
+    margin-left: 10px;
+}
+
+.layout-left__submit-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout-form__button {
+    padding: 21px;
+    width: 210px;
+    background: #DD3142;
+    border-radius: 40px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.layout-form__button:hover {
+    cursor: pointer;
+}
+
+.layout-form__account-exists {
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+    margin-top: 40px;
+   text-decoration: none;
+}
+
+.layout-right {
+    background-color: #F8F8FA;
+    width: 100%;
+    padding: 254px 0 331px 0;
+}
+
+.layout-right__img {
+    width: 543px;
+    height: 600px;
+}
+
+
+
